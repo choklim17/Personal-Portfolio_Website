@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christopher Lim - IT Student Specializing in Mobile and Web Applications</title>
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./images/logo.png" alt="logo">
+        </div>
+
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">My Skills</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#projects" class="nav__link">My Projects</a></li>
+            </ul>
+
+            <ul class="social-list">
+                <li class="list__item">
+                    <a href="https://github.com/choklim17" target="_blank" class="list__link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="https://www.linkedin.com/in/christopher-angelo-lim-1697681b8/" target="_blank" class="list__link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="https://www.facebook.com/profile.php?id=100082955978550" target="_blank" class="list__link">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title title--intro">Hi, I am <strong>Christopher Lim</strong></h1>
+        <p class="section__subtitle subtitle--intro">Information Technology Student</p>
+        <img src="./images/my-pic.jpg" alt="My Picture" class="intro__img">
+    </section>
+
+    <!-- My Skills -->
+    <section class="my-skills" id="skills">
+        <h2 class="section__title title--skills">My Skills</h2>
+
+        <div class="skills">
+            <div class="skill">
+                <h3>Front-End</h3>
+                <p>Proficient in HTML, CSS, JavaScript, and frameworks like Bootstrap and jQuery.</p>
+            </div>
+
+            <div class="skill">
+                <h3>Back-End</h3>
+                <p>Experienced in Java and SQL for creating robust server-side applications and managing databases.</p>
+            </div>
+
+            <div class="skill">
+                <h3>Mobile App</h3>
+                <p>Skilled in creating native Android applications using Java and Kotlin.</p>
+            </div>
+        </div>
+
+        <h3>Technologies, Frameworks and Libraries</h3>
+        <div class="technologies">
+            <ul class="tech-list">
+                <li><img src="./icons/java.png" alt="Java Icon"></li>
+                <li><img src="./icons/kotlin.png" alt="Kotlin Icon"></li>
+                <li><img src="./icons/html.png" alt="HTML Icon"></li>
+                <li><img src="./icons/css.png" alt="CSS Icon"></li>
+                <li><img src="./icons/js.png" alt="JavaScript Icon"></li>
+                <li><img src="./icons/node.png" alt="Node JS Icon"></li>
+                <li><img src="./icons/bootstrap.png" alt="Bootstrap Icon"></li>
+                <li><img src="./icons/sql-server.png" alt="SQL Server Icon"></li>
+                <li><img src="./icons/my-sql.png" alt="MySQL Icon"></li>
+            </ul>
+        </div>
+
+        <a href="#projects" class="btn">My Projects</a>
+    </section>
+
+    <!-- About Me -->
+     <section class="about-me" id="about">
+        <h2 class="section__title title--about">Who I am</h2>
+        <p class="section__subtitle subtitle--about">Specializing in Mobile and Web Applications</p>
+
+        <div class="about-me__body">
+            <p>
+                Hi! I'm Christopher Lim, IT student majoring in Mobile and Web Applications at National University Manila. I love technology and I make solutions 
+                that improve people's lives. My journey in software development started with a strong foundation in Java where I learned the basics of object 
+                oriented programming and built several projects to solidify my understanding. Since then I've expanded my skills to include various web technologies 
+                and frameworks such as HTML, CSS, JavaScript, Bootstrap, jQuery and SQL which allows me to create dynamic and responsive websites. I also have 
+                experience in native Android development using Java and Kotlin where I built applications that utilizes the full capabilities of the Android platform. 
+                Now I'm eager to expand my skills in both web and mobile development to further broaden my expertise and create versatile applications. 
+            </p>
+            <p>
+                As an aspiring software developer, I am committed to continuous learning and growth in both web and mobile application development. My goal is to 
+                build innovative and efficient applications that provide real value to users. I am excited about the future and look forward to contributing to 
+                impactful projects.
+            </p>
+        </div>
+
+        <img src="./images/my-pic1.jpg" alt="My Picture" class="about-me__img">
+     </section>
+
+     <!-- My Projects -->
+      <section class="my-projects" id="projects">
+        <h2 class="section__title title--projects">My Projects</h2>
+        <p class="section__subtitle subtitle--projects">Check out some of my projects</p>
+
+        <div class="portfolio">
+            <h3>Bank Account Management System</h3>
+            <p>
+                <strong>Description:</strong> A Java OOP application with a graphical user interface (GUI) built using Java Swing. It allows users to manage their 
+                personal bank accounts, including registration, deposits, withdrawals, and balance inquiries. The application ensures security and reliability with 
+                encapsulation, inheritance, polymorphism, abstraction, and exception handling.
+            </p>
+            <p>
+                <strong>Technologies Used:</strong> Java, Java Swing, File Handling
+            </p>
+            <p>
+                <strong>Key Features:</strong>
+            </p>
+            <ul>
+                <li>User registration with initial deposit</li>
+                <li>Deposit and withdrawal transactions</li>
+                <li>Balance inquiry</li>
+                <li>60-second timer for withdrawals</li>
+                <li>Exception handling for error management</li>
+            </ul>
+  
+            <a href="https://github.com/choklim17/Banking-System" target="_blank" class="btn">View on GitHub</a>
+        </div>
+
+        <div class="portfolio">
+            <h3>To-Do List App for Students</h3>
+            <p>
+                <strong>Description:</strong> An Android application developed using Java and SQLite. The app helps students organize their tasks by allowing them to 
+                create, read, update, and delete (CRUD) subjects and tasks associated with those subjects. The application is designed to streamline task management for 
+                students, ensuring they can keep track of their academic responsibilities efficiently.
+            </p>
+            <p>
+                <strong>Technologies Used:</strong> Java, Android Studio, SQLite
+            </p>
+            <p>
+                <strong>Key Features:</strong>
+            </p>
+            <ul>
+                <li>CRUD operations for subjects and tasks</li>
+                <li>Two-table database schema (Subjects and Tasks)</li>
+                <li>User-friendly interface for managing academic tasks</li>
+            </ul>
+
+            <a href="https://github.com/choklim17/To-Do-List_App" target="_blank" class="btn">View on GitHub</a>
+        </div>
+
+        <div class="portfolio">
+            <h3>Personal Portfolio Website</h3>
+            <p>
+                <strong>Description:</strong> A personal portfolio website designed to showcase my skills and projects. The site features a modern, responsive design 
+                using HTML, CSS and JavaScript, demonstrating my ability to create visually appealing web pages.
+            </p>
+            <p>
+                <strong>Technologies Used:</strong> HTML, CSS, JavaScript
+            </p>
+            <p>
+                <strong>Key Features:</strong>
+            </p>
+            <ul>
+                <li>Responsive design</li>
+                <li>Clean and modern layout</li>
+                <li>Navigation bar</li>
+                <li>Sections for Home, Skills, About, and Projects</li>
+            </ul>
+
+            <a href="https://github.com/choklim17/Personal-Portfolio_Website" target="_blank" class="btn">View on GitHub</a>
+        </div>
+      </section>
+
+      <!-- Footer -->
+       <footer class="footer">
+            <a href="mailto:limchok14@gmail.com" class="footer__link">limchok14@gmail.com</a>
+            <ul class="social-list">
+                <li class="list__item">
+                    <a href="https://github.com/choklim17" target="_blank" class="list__link">
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="https://www.linkedin.com/in/christopher-angelo-lim-1697681b8/" target="_blank" class="list__link">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                </li>
+                <li class="list__item">
+                    <a href="https://www.facebook.com/profile.php?id=100082955978550" target="_blank" class="list__link">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+            <p>Icons provided by 
+                <a target="_blank" href="https://icons8.com" class="icons-link">
+                    <strong>Icons8</strong>
+                </a> 
+            </p>
+       </footer>
+
+       <!-- JavaScript -->
+       <script src="https://kit.fontawesome.com/855f4a595b.js" crossorigin="anonymous"></script>
+       <script src="index.js" charset="UTF-8"></script>
+</body>
+</html>
