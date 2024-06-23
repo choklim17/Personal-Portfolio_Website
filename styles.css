@@ -324,6 +324,7 @@ header {
     justify-content: center;
     gap: 1em;
     list-style-type: none;
+    padding: 0;
 }
 
 .tech-list img {
